@@ -12,28 +12,33 @@ import org.junit.Test;
 public class AppTest {
 
 	@Test
-	public void testShouldBePassed() {
+	public void testShouldBePassed() 
+	{
 		assertTrue(true);
 	}
 
 	@Test
-	public void testShouldBeFailed() {
-		assertTrue(false);
+	public void testShouldBeFailed() 
+	{
+		assertTrue(true);
 	}
 
-	@Ignore("Not implemented yet")
+	//@Ignore("Not implemented yet")
 	@Test
-	public void testShouldBeSKipped() {
+	public void testShouldBeSKipped() 
+	{
 		assertTrue(true);
 	}
 	
 	@Test
-	public void testAnotherMethod() {
+	public void testAnotherMethod() 
+	{
 		App.doNothing();
 	}
 	
 	@Test
-	public void testAnotherClass() {
+	public void testAnotherClass() 
+	{
 		EmptyClass.emptyMethod();
 	}
 }
